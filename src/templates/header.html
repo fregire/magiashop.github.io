@@ -1,0 +1,173 @@
+<header class="page-header">
+	<div class="page-header__nav">
+		<div class="user-nav">
+			<div class="user-nav__group">
+				<button class="user-nav__item user-nav__item_menu-toggler" id="nav-menu" title="Закрыть меню">
+					<img src="img/menu.svg" alt="">
+				</button>
+				<button class="user-nav__item user-nav__item_search" id="nav-search" title="Поиск по сайту">
+					<img src="img/loupe.svg" alt="">
+				</button>				
+			</div>
+			<div class="user-nav__logo">
+				<img src="img/logo.svg" alt="Logo">
+			</div>
+			<div class="user-nav__group">
+				<button class="user-nav__item user-nav__item_user" id="nav-user">
+					<img src="img/user.svg" alt="">
+				</button>
+				<button class="user-nav__item user-nav__item_favourites" id="nav-favourite">
+					<img src="img/heart (1).svg" alt="">
+				</button>
+				<button class="user-nav__item user-nav__item_cart" id="nav-cart">
+					<img src="img/cart.svg" alt="">
+				</button>
+			</div>
+		</div>
+		<div class="dropdowns-nav">
+			<div class="dropdowns-nav__item">
+				<nav class="page-nav">
+					<ul class="page-nav__list">
+						<li class="page-nav__item">
+							<a href="#" class="page-nav__link">бренды</a>
+						</li>
+						<li class="page-nav__item">
+							<a href="#" class="page-nav__link">новинки</a>
+						</li>
+						<li class="page-nav__item">
+							<a href="#" class="page-nav__link page-nav__link_parent">волосы</a>
+							<ul class="page-nav__list page-nav__list_nested">
+								<li class="page-nav__item">
+									<a href="#" class="page-nav__link">подбор по проблеме</a>
+									<ul class="page-nav__list page-nav__list_nested">
+										<li class="page-nav__item">
+											<a href="#" class="page-nav__link">для мужчин</a>
+										</li>
+										<li class="page-nav__item">
+											<a href="#" class="page-nav__link">выпадение волос</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<ul class="page-nav__list page-nav__list_nested">
+								<li class="page-nav__item">
+									<a href="#" class="page-nav__link">подбор по проблеме</a>
+									<ul class="page-nav__list page-nav__list_nested">
+										<li class="page-nav__item">
+											<a href="#" class="page-nav__link">для мужчин</a>
+										</li>
+										<li class="page-nav__item">
+											<a href="#" class="page-nav__link">выпадение волос</a>
+										</li>
+
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="page-nav__item">
+							<a href="#" class="page-nav__link page-nav__link_parent">лицо</a>
+							<ul class="page-nav__list page-nav__list_nested">
+								<li class="page-nav__item">
+									<a href="#" class="page-nav__link">подбор по проблеме</a>
+									<ul class="page-nav__list page-nav__list_nested">
+										<li class="page-nav__item">
+											<a href="#" class="page-nav__link">для мужчин</a>
+										</li>
+										<li class="page-nav__item">
+											<a href="#" class="page-nav__link">выпадение волос</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<ul class="page-nav__list page-nav__list_nested">
+								<li class="page-nav__item">
+									<a href="#" class="page-nav__link">подбор по проблеме</a>
+									<ul class="page-nav__list page-nav__list_nested">
+										<li class="page-nav__item">
+											<a href="#" class="page-nav__link">для мужчин</a>
+										</li>
+										<li class="page-nav__item">
+											<a href="#" class="page-nav__link">выпадение волос</a>
+										</li>
+
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="page-nav__item">
+							<a href="#" class="page-nav__link">последний</a>
+						</li>
+					</ul>
+					<ul class="page-nav__list">
+						<li class="page-nav_item">
+							<a href="#" class="page-nav__link">акции</a>
+						</li>
+						<li class="page-nav_item">
+							<a href="#" class="page-nav__link">доставка и оплата</a>
+						</li>
+						<li class="page-nav_item">
+							<a href="#" class="page-nav__link">скидочная система</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="dropdowns-nav__group-item callback">
+					<a href="tel:+79521353261" class="callback__item callback__item_phone">8 800 555 19 72</a>
+					<a href="#" class="callback__item callback__item_link">Обратный звонок</a>
+				</div>
+				<div class="dropdowns-nav__group-item location">
+					<p class="location__item">Полежаевская</p>
+					<p class="location__item">Тимирязевская</p>
+				</div>
+			</div>	
+			<!-- TODO: Решить что-то с dropdowns-nav__group-item -->
+			<div class="dropdowns-nav__item dropdown-cart dropdown-cart_empty">
+				<div class="dropdowns-nav__inner">
+					<h2 class="dropdowns-nav__title">Корзина</h2>
+					<div class="dropdowns-nav__content">
+						В вашей корзине пока нет товаров
+					</div>
+					<button class="dropdowns-nav__btn btn btn_dark btn_size_fullwidth">Перейти к покупкам</button>
+				</div>
+			</div>	
+			<div class="dropdowns-nav__item dropdown-fav dropdown-fav_empty">
+				<div class="dropdowns-nav__inner">
+					<h2 class="dropdowns-nav__title">Избранные товары</h2>
+					<div class="dropdowns-nav__content">
+						Здесь будут отображаться товары, которые вы добавили в избранное
+						<button class="dropdowns-nav__fav fav-btn fav-btn_disabled" title="Добавить в избранное">
+							<img class="fav-btn__img" src="img/heart_dark.svg" alt="">
+						</button>
+					</div>
+				</div>
+			</div>	
+			<div class="dropdowns-nav__item">
+				<div class="dropdowns-nav__inner">
+					<h2 class="dropdowns-nav__title">Личный кабинет</h2>
+					<form class="form">
+						<div class="dropdowns-nav__content dropdown-auth">
+							<input type="text" class="dropdown-auth__field field field_auth field_size_full" placeholder="E-mail или телефон">
+							<input type="text" class="dropdown-auth__field field field_auth field_size_full" placeholder="Пароль">
+						</div>
+						<input class="btn btn_dark btn_size_fullwidth" type="submit" value="Войти">
+					</form>
+				</div>
+			</div>	
+			<div class="dropdowns-nav__item">
+				<div class="page-search">
+					<div class="page-search__search-bar">
+						<input type="text" class="page-search__field" placeholder="Хочу купить">
+						<button type="submit" class="page-search__btn"></button>
+					</div>
+					<div class="page-search__suggest">
+						<ul class="suggest-list">
+							<li class="suggest-list__item">Hello, 1</li>
+							<li class="suggest-list__item">Hello, 2</li>
+							<li class="suggest-list__item">Hello, 3</li>
+							<li class="suggest-list__item">Hello, 4</li>
+						</ul>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</div>
+</header>
